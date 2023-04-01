@@ -6,7 +6,7 @@ Octeto = direccion_ip.split(".")
 
 #verifica la clase de su Dirección Ip
 
-If int(Octeto[0]) >= 0 and int(Octeto[0]) <= 126:
+If int(Octeto[0]) >= 1 and int(Octeto[0]) <= 126:
  print("Su Dirección IP es de Clase A")
 
 elif int(Octeto[0]) >= 127 and int(Octeto[0]) <= 191:
